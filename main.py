@@ -128,8 +128,3 @@ if st.button("Start Research"):
 
     st.subheader("Detailed Research Report:")
     st.write(research_output['detailed_report'])
-
-# Remove the hardcoded query and research output
-# user_query = """Conduct a comprehensive market research analysis on APAR Industries Limited, focusing on its current market share, product portfolio (especially in conductors, specialty oils, and cables), and competitive positioning in India and international markets. Analyze historical revenue growth, segment-wise performance, key customers, and strategic partnerships. Compare APAR's technological innovation, pricing strategy, and supply chain resilience against key competitors such as Polycab, Sterlite Power, and Bharat Bijlee. Assess emerging trends in power transmission, renewable energy integration, and electric mobility that could influence APAR’s growth trajectory over the next 5 years. Include risk factors (e.g., raw material prices, regulatory changes), and identify market opportunities or untapped geographies for expansion. Provide data-backed insights and recommendations"""
-# research_output = deep_research(user_query)   # Perform deep research
-# print(f"Detailed Research Report:\n{research_output['detailed_report']}")
